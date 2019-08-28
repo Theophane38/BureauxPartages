@@ -40,7 +40,7 @@ Si l'utilisateur a été défini en tant qu'administrateur, il peut voir accès 
 ![Capture-TableauDeBord](https://user-images.githubusercontent.com/32487884/63846840-e79de580-c98c-11e9-990b-18dd4fd8a5cf.JPG)
 
 Il pourra également voir tous les comptes qui ont été créés, ajouter des administrateur, regarder l'activité de chacun des comptes ou encore ajouter de nouveaux lieux.
-![Capture-Users](https://user-images.githubusercontent.com/32487884/63846935-1451fd00-c98d-11e9-9f3c-f778e911ce21.JPG)
+![InkedCapture-Users_LI](https://user-images.githubusercontent.com/32487884/63849928-58e09700-c993-11e9-8a6f-09fe347f9a78.jpg)
 
 ### En savoir plus
 
