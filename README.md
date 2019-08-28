@@ -14,7 +14,7 @@ Capture d'écran de la page de connexion
 ### Page d'accueil
 Une fois connecté, l'utilisateur se retrouve sur la page d'accueil sur laquelle il peut voir ses réservations et prêts à venir.
 ![Capture-AccueilPrets](https://user-images.githubusercontent.com/32487884/63845774-d3f17f80-c98a-11e9-8e36-dd73b6ce4816.JPG)
-
+aaa
 ### Page de recherche de bureaux
 L'utilisateur peut maintenant rechercher un bureau disponible.
 ![Capture-reservation](https://user-images.githubusercontent.com/32487884/63846068-5417e500-c98b-11e9-8bee-ca74bdc5ed73.JPG)
