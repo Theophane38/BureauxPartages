@@ -1,0 +1,3271 @@
+body {
+  background-color: #fafafa
+
+}
+.backgroundLogin {
+  padding-top: 200px;
+  background-image: url('./Images/background.jpg');
+  height: 500px;
+  text-align: center;
+  background-size: 100%;
+}
+.backgroundLogin h1 {
+  margin: 0;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+.errorLogin {
+  color: red;
+  background-color: rgba(255,255,255,0.5);
+  width: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+.backgroundLogin input {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 300px;
+  border-color: white;
+  border-style: solid;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+h1 {
+  margin: 0;
+}
+.header {
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  position: fixed;
+  background-color: #0060aa;
+}
+.menu {
+  margin: auto;
+  padding: 0;
+  width: 1100px;
+}
+.menu li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+.menu li:first-child {
+  padding-left: 0;
+}
+.menu li:last-child {
+  padding: 21px 20px 20px 20px;
+  color: white;
+  float: right;
+  font-size: 27px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+.menu li:last-child:hover {
+  background-color: #fff;
+  color: #0060aa;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+.menu li a:nth-child(2){
+    display: none;
+}
+.accueil {
+  width: 1100px;
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  min-height: 100%;
+  margin-top: 88px;
+}
+.accueil .backButtons {
+  padding-top: 50px;
+}
+.accueil .backButtons a {
+  text-decoration: none;
+}
+.accueil .button {
+  background-color: #0060aa;
+  width: 350px;
+  padding: 25px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.accueil .button:hover {
+  opacity: 0.9;
+}
+.accueil .yourActivity {
+  width: 1060px;
+  margin: auto;
+}
+.accueil .yourActivity h3{
+  border-bottom: 1px solid black;
+}
+.accueil .yourActivity table {
+  width: 1060px;
+  margin-bottom: 20px;
+}
+.accueil .yourActivity td {
+  width: 220px;
+  text-align: right;
+  padding-bottom: 10px;
+}
+.accueil .yourActivity .titreTab {
+  text-align: left;
+  vertical-align: top;
+}
+.accueil .yourActivity h4 {
+  width: 200px;
+  display: inline-block;
+}
+.accueil .yourActivity .details {
+  color: #0060aa;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.accueil .yourActivity .nbReservations {
+  color: #0060aa;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.accueil .yourActivity .cancel {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.accueil .yourActivity ul {
+  display: inline-block;
+  margin: 0;
+  width: 900px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.accueil .yourActivity ul li {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: calc(100% / 3);
+}
+.accueil .yourActivity ul li:first-child {
+  text-align: left;
+  font-size: 20px;
+}
+.accueil .yourActivity ul li:last-child {
+  text-align: right;
+}
+.accueil .spinner {
+  margin-top: 40px;
+  height: 50px;
+}
+.pret {
+  text-align: center;
+  width: 1100px;
+  background-color: #fff;
+  padding: 150px 20px;
+  margin: auto;
+}
+.pret h5 {
+  font-size: 20px;
+}
+.pret form {
+  background-color: #eeeeee;
+  border-radius: 0 0 15px 15px;
+  border: 2px solid #ccc;
+  width: 500px;
+  margin: auto;
+}
+.pret form p {
+  margin: 0;
+}
+.pret form .left {
+  width: 248px;
+  display: inline-block;
+  padding: 20px 0;
+}
+.pret form .left .inputDate {
+  padding: 10px;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 15px;
+  width: 160px;
+}
+.pret form .right {
+  width: 248px;
+  padding: 20px 0;
+  display: inline-block;
+}
+.pret form select {
+  padding: 10px;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 15px;
+  width: 160px;
+}
+.pret .error {
+  color: red;
+}
+.inputCheckConfirmation {
+  vertical-align: top;
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  font-size: 34px;
+}
+.labelCheckConfirmation {
+  width: 443px;
+  font-size: 13px;
+}
+.pret .errorConfirmation {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.pret .submit{
+  background-color: #0060aa;
+  border: 1px solid #0060aa;
+  color: white;
+  padding: 10px;
+  width: 300px;
+  font-size: 20px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.emprunt {
+  width: 100%;
+  margin: auto;
+  margin-top: 88px;
+}
+.emprunt .backSearchEmprunt {
+  background-color: #eee;
+  position: fixed;
+  width: 100%;
+  box-shadow: 1px 1px rgba(0,0,0,0.075);
+  border-bottom: #ccc 1px solid;
+  top: 88px;
+}
+.emprunt .searchEmprunt {
+  width: 1100px;
+  margin: auto;
+  vertical-align: top;
+}
+.emprunt .searchEmprunt .where {
+  width: 24%;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0;
+  margin-right: 0.8%;
+  margin-left: 0.8%;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.emprunt .searchEmprunt .where span {
+  width: 7%;
+  text-align: center;
+  color: grey;
+}
+.emprunt .searchEmprunt .where .whereRight {
+  width: 93%;
+  display: inline-block;
+}
+.emprunt .searchEmprunt .where .whereRight p {
+  margin: 0;
+  color: grey;
+  font-size: 12px;
+}
+.emprunt .searchEmprunt .where .inputWhere {
+  width: 85%;
+  padding-left: 0;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+.emprunt .searchEmprunt .date {
+  width: 24%;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0;
+  margin-right: 0.8%;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  border: #ccc 1px solid;
+  border-radius: 4px;
+}
+.emprunt .searchEmprunt .date span {
+  width: 15%;
+  text-align: center;
+  position: relative;
+  color: grey;
+}
+.emprunt .searchEmprunt .date .containerInputDate {
+  width: 85%;
+  display: inline-block;
+}
+.emprunt .searchEmprunt .date .inputDate {
+  width: 85%;
+  color: grey;
+  border: none;
+  margin: 0;
+  padding: 6.5px;
+}
+.emprunt .searchEmprunt .date .inputDate:focus {
+  outline:  none;
+}
+.emprunt .searchEmprunt .hour {
+  width: 24%;
+  display: inline-block;
+  margin-right: 0.8%;
+  margin-top: 10px;
+  padding: 0;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.emprunt .searchEmprunt .hour span {
+  width: 7%;
+  text-align: center;
+  color: grey;
+}
+.emprunt .searchEmprunt .hour .inputHour {
+  padding: 12px 10px 12px 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 0;
+  font-size: 15px;
+  width: 93%;
+}
+.emprunt .searchEmprunt .submit {
+  width: 24%;
+  margin-right: 0.8%;
+  display: inline-block;
+}
+.emprunt .searchEmprunt .inputSubmit {
+  margin: 10px 0;
+  margin-right: 0.8%;
+  width: 100%;
+  background-color: #0060aa;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+.emprunt .error {
+  color: red;
+  margin: 0;
+  font-size: 12px;
+  display: block;
+  margin-left: 0.8%;
+}
+.emprunt .noSearch {
+  text-align: center;
+  color: #ccc;
+  margin-top: 100px;
+}
+.emprunt .resultEmprunt {
+  width: 1100px;
+  padding: 20px;
+  margin: auto;
+  background-color: #fff;
+  padding-top: 100px;
+}
+.emprunt .resultEmprunt .bureau {
+  margin-bottom: 50px;
+  color: #000;
+}
+.emprunt .resultEmprunt .bureau:hover {
+  background-color: #eee;
+}
+.emprunt .resultEmprunt a {
+  text-decoration: none;
+}
+.emprunt .resultEmprunt .bureau .image {
+  display: inline-block;
+}
+.emprunt .resultEmprunt .bureau .image img {
+  width: 200px;
+  height: 200px;
+}
+.emprunt .resultEmprunt .bureau .infos {
+  width: 690px;
+  display: inline-block;
+  vertical-align: top;
+}
+.emprunt .resultEmprunt .bureau .infos img {
+  margin-right: 5px;
+}
+.emprunt .resultEmprunt .bureau .title {
+  width:100%;
+}
+.emprunt .resultEmprunt .bureau .title p {
+  margin: 0;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.emprunt .resultEmprunt .bureau .title p .fa {
+  float: right;
+}
+.emprunt .resultEmprunt .bureau .title p .fa.favorisTrue {
+  color: #EFEF00;
+}
+.emprunt .resultEmprunt .bureau .title p .fa.favorisFalse {
+  color: #444;
+}
+.emprunt .resultEmprunt .bureau .title span {
+  color: #0060aa;
+  cursor: pointer;
+}
+.emprunt .resultEmprunt .bureau .details {
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: top;
+  width: 220px;
+}
+.emprunt .resultEmprunt .bureau .details .iconsDetails{
+  width: 20px;
+}
+.emprunt .resultEmprunt .bureau .materiel-services {
+  display: inline-block;
+}
+.emprunt .resultEmprunt .bureau .materiel {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+}
+.emprunt .resultEmprunt .bureau .details h4, .emprunt .resultEmprunt .bureau .materiel h4, .emprunt .resultEmprunt .bureau .services h4 {
+  margin-top: 0;
+  font-size: 20px;
+}
+.emprunt .resultEmprunt .bureau .materiel .check, .emprunt .resultEmprunt .bureau .services .check {
+  color: green;
+  display: inline-block;
+  margin-right: 5px;
+}
+.emprunt .resultEmprunt .bureau .details p, .emprunt .resultEmprunt .bureau .materiel p, .emprunt .resultEmprunt .bureau .services p {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 3px;
+}
+.emprunt .resultEmprunt .bureau .services {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+}
+.emprunt .resultEmprunt .bureau .details p:first-child {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.emprunt .resultEmprunt .bureau .details p:first-child {
+  margin: 0;
+  font-size: 20px;
+}
+.emprunt .checkEmprunt {
+  display: inline-block;
+  vertical-align: top;
+  width: 170px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.emprunt .checkEmprunt p {
+  text-align: center;
+  margin: 0;
+}
+.emprunt .checkEmprunt p span {
+  font-size: 25px;
+}
+.emprunt .checkEmprunt .buttonCheck {
+  background-color: #0060aa;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  width: 170px;
+  font-size: 15px;
+  text-align: center;
+}
+.profil {
+  width: 1100px;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 20px;
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+.profil h4 {
+  background-color: #0060aa;
+  color: #fff;
+  padding: 5px;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: -36px;
+}
+.profil .ligneInfos {
+  width: 400px;
+  margin-left: 150px;
+}
+.profil .key {
+  display: inline-block;
+  width: 160px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.profil .value {
+  display: inline-block;
+  width: 200px;
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.profil ul {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+.profil li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.profil a {
+  color: blue;
+  margin-top: 20px;
+  display: block;
+  text-decoration: none;
+  margin-left: 480px;
+}
+.detailsProfil h3 {
+ margin: 10px 0 30px 0;
+}
+.detailsProfil h4 {
+  background-color: #0060aa;
+  color: #fff;
+  padding: 5px;
+  width: calc(100% + 61px);
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: -35px;
+}
+.detailsProfil .triangle {
+  float: left;
+  margin: 0 0 0 -35px;
+  padding: 0;
+  border-color: #375D81 #375D81 rgba(0,0,0,0) rgba(0,0,0,0);
+  border-style: solid;
+  border-width: 8px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+}
+.detailsProfil .triangle2 {
+  float: left;
+  margin-left: calc(100% + 11px);
+  padding: 0;
+  border-color: #375D81 rgba(0,0,0,0) rgba(0,0,0,0) #375D81;
+  border-style: solid;
+  border-width: 8px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+}
+.detailsProfil .ligneInfos {
+  width: 400px;
+  margin: auto;
+}
+.detailsProfil .key {
+  display: inline-block;
+  text-align: right;
+  width: 200px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.detailsProfil .value {
+  display: inline-block;
+  width: 200px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.detailsProfil ul {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+.detailsProfil li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.detailsProfil .modify {
+  color: #0060aa;
+  text-align: right;
+  cursor: pointer;
+}
+.reservation h2 {
+  text-align: center;
+}
+.reservation .input-range {
+  padding-top: 50px;
+  width: 500px;
+  display: inline-block;
+}
+.reservation .min {
+  width: 125px;
+  text-align: center;
+  margin-top: 15px;
+  vertical-align: top;
+  display: inline-block;
+  color: #ccc;
+}
+.reservation .max {
+  width: 125px;
+  text-align: center;
+  margin-top: 15px;
+  vertical-align: top;
+  display: inline-block;
+  color: #ccc;
+}
+.reservation .input-range__label-container {
+  font-size: 20px !important;
+  top: -2rem !important;
+  display: none;
+}
+.input-range__label--min, .input-range__label--max {
+  bottom: 0rem !important;
+  font-size: 10px !important;
+}
+.notif {
+  position: absolute;
+  background-color: #fff;
+  width: 800px;
+  margin-left: 130px;
+  padding: 20px;
+  height: 200px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.myPretsDetails {
+  margin-top: 20px;
+}
+.myPretsDetails td {
+  width: 140px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.myPretsDetails td span {
+  cursor: pointer;
+}
+.myPretsDetails tr:first-child {
+  border-bottom: 1px solid grey;
+}
+.myPretsDetails tr:first-child td {
+  font-weight: bold;
+}
+.myPretsDetails tr:nth-child(2) td {
+  padding-top: 20px;
+}
+.myPretsDetails .past td {
+  color: #ccc;
+}
+.myPretsDetails .current td {
+  font-weight: bold;
+  color: #0060aa;
+}
+.myPretsDetails .later td {
+  color: #000;
+}
+.lienProfil {
+  color: #0060aa;
+}
+.modal-content {
+  border: none;
+}
+.editBureau .imageSelector {
+  width: 100%;
+  text-align: center;
+
+}
+.editBureau .imageSelector h3 {
+  text-align: left;
+}
+.editBureau .imageSelector img {
+  border: 2px solid #aaa;
+  margin-top: 30px;
+}
+.editBureau .imageSelector .modifyImage {
+  color: #4080ff;
+  cursor: pointer;
+  text-align: right;
+  margin-right: 72px;
+}
+.editBureau .imageSelector .modifyImage:hover {
+  text-decoration: underline;
+}
+.editBureau .imageSelector .modifyImage .fa {
+  margin-right: 8px;
+}
+.editBureau .imageSelector input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.editBureau .imageSelector .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.editBureau .imageSelector .rotate1 {
+  font-size: 20px;
+  margin-right: 50px;
+  color: #0060aa;
+  cursor: pointer;
+}
+.editBureau .imageSelector .rotate2 {
+  font-size: 20px;
+  margin-left: 50px;
+  color: #0060aa;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.editBureau .imageSelector p {
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.editBureau .imageSelector .zoom {
+  width: 50px;
+  float: left;
+}
+.editBureau .imageSelector .inputRangeContainer {
+  width: 300px;
+  margin-top: 5px;
+  float: left;
+}
+.editBureau .imageSelector .input-range__label-container {
+  display: none !important;
+}
+.editBureau .infosSelector {
+  display: inline-block;
+  min-height: 500px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  vertical-align: top;
+}
+.editBureau .infosSelector h3 {
+  margin-left: 20px;
+}
+.editBureau .infosSelector .ligneInfos {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  margin-left: 20px;
+}
+.editBureau .infosSelector .ligneInfos div {
+  width: 205px;
+  display: inline-block;
+}
+.editBureau .infosSelector .ligneInfos div {
+  text-align: left;
+  color: #000;
+  font-weight: bold;
+}
+.editBureau .infosSelector .ligneInfos div:first-child {
+  text-align: left;
+  vertical-align: top;
+  font-weight: normal;
+  color: #aaa;
+}
+.editBureau .infosSelector .ligneInfos div:last-child {
+  text-align: right;
+  vertical-align: top;
+  font-weight: normal;
+  cursor: pointer;
+  color: #4080ff;
+}
+.editBureau .infosSelector .ligneInfos div:last-child:hover {
+  text-decoration: underline;
+}
+.editBureau .infosSelector .ligneInfos div:last-child .fa {
+  margin-right: 7px;
+}
+.editBureau .infosSelector .ligneInfos div:last-child label {
+  margin-top: 13px;
+  margin-right: 28px;
+}
+.editBureau .infosSelector .ligneInfos div:last-child label .react-toggle {
+  width: 50px;
+}
+.editBureau .infosSelector .ligneInfos div:last-child label .react-toggle-track {
+  width: 50px;
+}
+.editBureau .infosSelector .ligneInfos div:last-child label .react-toggle-thumb {
+  width: 22px;
+}
+.editBureau .infosSelector .ligneModify {
+  background-color: #eee;
+  padding-top: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-top: -1px;
+  border-top: 1px solid #ccc;
+}
+.editBureau .infosSelector .ligneModify .titre {
+  text-align: right;
+  vertical-align: top;
+  font-weight: normal;
+  color: #aaa;
+  width: 30%;
+  display: inline-block;
+}
+.editBureau .infosSelector .ligneModify .inputContainer {
+  text-align: left;
+  vertical-align: top;
+  width: 70%;
+  padding-left: 25px;
+  display: inline-block;
+}
+.editBureau .infosSelector .ligneModify .inputMateriel label {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.editBureau .infosSelector select {
+  width: 200px;
+  padding: 4px 0;
+}
+.editBureau .cancelButton {
+  font-size: 12px;
+  padding: 5px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.editBureau .saveButton {
+  background-color: #0060aa;
+  color: white;
+  font-size: 12px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.editBureau .cancelButtonImage {
+  font-size: 12px;
+  padding: 5px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.editBureau .saveButtonImage {
+  background-color: #0060aa;
+  color: white;
+  font-size: 12px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.addBureau.editBureau .ligneModify {
+  background-color: #fff;
+  border: none;
+}
+.addBureau.editBureau .cancelButton {
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.addBureau.editBureau .saveButton {
+  background-color: #0060aa;
+  float: right;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.editBureau .infosSelector .ligneModify.error .titre {
+  color: red;
+}
+.editBureau .infosSelector .ligneModify.error select {
+  border-color: red;
+}
+.editBureau .infosSelector .ligneModify.error input {
+  border: 1px solid red;
+}
+.clear {
+  clear: both;
+}
+.fade {
+  opacity: 1;
+}
+.disconnectButton {
+  padding: 5px;
+  font-size: 15px;
+  float: left;
+  background-color: rgba(255,0,0,0.5);
+  color: #fff;
+}
+.disconnectButton:hover {
+  background-color: rgba(255,0,0,1);
+}
+.modifyInfos {
+  text-align: right;
+  vertical-align: top;
+  font-weight: normal;
+  cursor: pointer;
+  color: #4080ff;
+}
+.modifyInfos span {
+  margin-right: 5px;
+}
+.none {
+  color: #bbb;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.clickHere {
+  cursor: pointer;
+  color: #4080ff;
+}
+.clickHere:hover {
+  text-decoration: underline;
+}
+
+/*  ----- BUTTONS ----- */
+
+input.connectButton {
+  width: 300px;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+  margin: auto;
+  cursor: pointer;
+  background-color: #0060aa;
+  border: 1px solid #0060aa;
+}
+input.connectButton:hover {
+  opacity: 0.9;
+}
+.disconnectButton {
+  padding: 5px;
+  font-size: 15px;
+  float: left;
+  background-color: rgba(255,0,0,0.5);
+  color: #fff;
+}
+.disconnectButton:hover {
+  background-color: rgba(255,0,0,1);
+}
+.closeButton {
+  float: right;
+  padding: 5px;
+  font-size: 15px;
+}
+.messageInfos {
+  font-size: 12px;
+  width: 370px;
+  margin-bottom: 0;
+}
+.btn {
+  cursor: pointer;
+}
+.radio {
+  width: 33%;
+  display: inline-block;
+  margin: 20px 0;
+}
+.pret form .recurrence_left {
+  vertical-align: top;
+}
+.errorDureeRecurrence {
+  font-size: 12px;
+  color: red;
+  margin-bottom: 10px !important;
+}
+.ongletPret {
+  display: inline-block;
+  width: 250px;
+  color: #0060aa;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 0;
+}
+.ongletPret:hover{
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+.ongletPret.active {
+  background-color: #eeeeee;
+  border-top: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 0;
+  margin-bottom: -2px;
+  border-bottom: 2px solid #eee;
+}
+.ongletPret.active:hover {
+  cursor: auto;
+}
+.showMore {
+  text-align: center;
+  color: #0060aa;
+  cursor: pointer;
+}
+.showMore:hover {
+  text-decoration: underline;
+}
+.activity {
+  width: 1100px;
+  margin: auto;
+  background-color: #fff;
+  padding: 100px 20px;
+  margin-top: 88px;
+}
+.activity h2 {
+  font-size: 18px;
+}
+.activity h3 {
+  border-bottom: 1px solid #000;
+  margin-top: 50px;
+}
+.activity table {
+  width: 100%;
+}
+.activity tr:first-child {
+  font-size: 12px;
+  color: #ccc;
+}
+.activity td {
+  width: 33.33%;
+  text-align: center;
+}
+.detailsBureau {
+  width: 1100px;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 88px;
+}
+.detailsBureau h3 {
+  margin: 0;
+  margin-left: 25px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.detailsBureau .left {
+  display: inline-block;
+  margin-left: 25px;
+}
+.detailsBureau .infosBureau {
+  border: 1px solid #ddd;
+  width: 650px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.detailsBureau .infosBureau h4 {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  font-size: 18px;
+  margin: 0;
+}
+.detailsBureau .infosBureau .corps {
+  padding: 10px;
+}
+.detailsBureau .infosBureauLeft {
+  display: inline-block;
+  width: 228px;
+  vertical-align: top;
+}
+.detailsBureau .infosBureauLeft img {
+  width: 100%;
+}
+.detailsBureau .infosBureauRight {
+  display: inline-block;
+  width: 325px;
+  padding: 10px;
+}
+.detailsBureau .infosMateriel {
+  margin-bottom: 25px;
+  border: 1px solid #ddd;
+  width: 650px;
+  border-radius: 5px;
+}
+.detailsBureau .infosMateriel h4 {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  font-size: 18px;
+  margin: 0;
+}
+.detailsBureau .infosMateriel .corps {
+  padding: 10px;
+}
+.detailsBureau .infosMateriel .corps img {
+  margin-right: 5px;
+}
+.detailsBureau .infosMateriel .corps p {
+  margin-top: 2px;
+}
+.detailsBureau .infosMateriel .corps div:last-child p {
+  margin-bottom: 0;
+}
+.detailsBureau .infosMateriel .check {
+  margin-right: 20px;
+  color: green;
+}
+.detailsBureau .infosMateriel p {
+  display: inline-block;
+}
+.detailsBureau .right {
+  vertical-align: top;
+  margin-left: 25px;
+  display: inline-block;
+}
+.detailsBureau .reservation {
+  border: 1px solid #ddd;
+  width: 375px;
+  border-radius: 5px;
+}
+.detailsBureau .reservation h4 {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  font-size: 18px;
+  margin: 0;
+}
+.detailsBureau .reservation .horaires {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  padding: 30px;
+  border-bottom: 1px solid #ddd;
+}
+.detailsBureau .reservation .buttonCheck {
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  -webkit-box-shadow: inset 0 -2px rgba(5,71,82,0.2);
+  box-shadow: inset 0 -2px rgba(5,71,82,0.2);
+  cursor: pointer;
+  vertical-align: baseline;
+  background: #0060aa;
+  width: 300px;
+  padding: 20px;
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.detailsBureau .reservation .buttonCheck:hover {
+  background: #005596;
+}
+.detailsBureau .infosPreteur {
+  margin-top: 25px;
+  border: 1px solid #ddd;
+  width: 375px;
+  border-radius: 5px;
+}
+.detailsBureau .infosPreteur h4 {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  font-size: 18px;
+  margin: 0;
+}
+.detailsBureau .infosPreteur .corps {
+  padding: 10px;
+}
+.detailsBureau .infosFavoris {
+  margin-top: 25px;
+  border: 1px solid #ddd;
+  width: 375px;
+  border-radius: 5px;
+}
+.detailsBureau .infosFavoris h4 {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  font-size: 18px;
+  margin: 0;
+}
+.detailsBureau .infosFavoris .corps {
+  padding: 10px;
+}
+.detailsBureau .infosFavoris .buttonCheck {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    -webkit-box-shadow: inset 0 -2px rgba(5,71,82,0.2);
+    box-shadow: inset 0 -2px rgba(5,71,82,0.2);
+    cursor: pointer;
+    vertical-align: baseline;
+    background: #0060aa;
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.detailsBureau .infosFavoris .buttonCheck:hover {
+  background: #005596;
+}
+.detailsBureau .infosFavoris p {
+  margin: 0;
+}
+.detailsBureau .infosFavoris p .fa {
+  color: yellow;
+}
+.modal-dialog {
+  max-width: 800px;
+  margin-top: 300px;
+  border: 1px solid rgb(229, 229, 229);
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  padding-left: 0;
+}
+.modal-content {
+  padding: 10px;
+}
+.fade.in.modal {
+  background-color: rgba(0,0,0,0.7);
+  padding-right: 17px;
+}
+.favoris {
+  width: 1100px;
+  background-color: #fff;
+  margin: auto;
+  padding: 10px;
+  margin-top: 88px;
+}
+.favoris .bureau {
+  padding: 10px;
+  border: 1px solid #eee;
+  margin-bottom: 25px;
+}
+.favoris .bureau .title .fa {
+  float: right;
+  color: #ccc;
+  cursor: pointer;
+}
+.favoris .bureau .title .fa:hover {
+  color: red;
+}
+.favoris .bureau .image {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+.favoris .bureau .image img {
+  width: 100%;
+}
+.favoris .bureau .infos {
+  width: 80%;
+  padding: 0 1%;
+  display: inline-block;
+}
+.favoris .bureau .infos div div span {
+  display: inline-block;
+  margin-right: 5px;
+}
+.favoris .bureau .infos div div img {
+  display: inline-block;
+  margin-right: 5px;
+}
+.favoris .bureau .infos div div p {
+  display: inline-block;
+  margin-bottom: 7px;
+}
+.favoris .bureau .infos .details {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
+.favoris .bureau .infos .materiel-services {
+  width: 67%;
+  display: inline-block;
+}
+.favoris .bureau .infos .materiel, .favoris .bureau .infos .services {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+.admin {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 88px;
+}
+.admin .menuAdmin {
+  color: white;
+  padding: 0;
+  width: 200px;
+  background-color: #34393d;
+  vertical-align: top;
+  min-height: calc(100vh - 88px);
+  margin: 0;
+  padding-top: 50px;
+  position: fixed;
+}
+.admin .menuAdmin span {
+  font-size: 15px;
+}
+.admin .menuAdmin .fa {
+  width: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+.admin .menuAdmin li {
+  list-style: none;
+  width: 100%;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.admin .menuAdmin li.active {
+  background-color: #0060aa;
+}
+.admin .containerAdmin {
+  width: calc(100% - 200px);
+  background-color: #eee;
+  margin-left: 200px;
+  display: inline-block;
+}
+.admin .containerAdmin .dataDashboard {
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  border: #ccc 1px solid;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  text-align: center;
+}
+.admin .containerAdmin .dataDashboard .c100 {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.admin .containerAdmin .dataDashboard .fa {
+  font-size: 40px;
+  margin-top: 20px;
+  color: #ccc;
+}
+.admin .containerAdmin .dataDashboard p:nth-child(2) {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 30px;
+  color: #0060aa;
+  margin: 0;
+  margin-top: 20px;
+}
+.admin .containerAdmin .dataDashboard p:last-child {
+  text-align: center;
+  color: #ccc;
+}
+.admin .ownDate {
+  display: inline-block;
+}
+.admin .selectPeriod {
+  background-color: #ddd;
+  position: fixed;
+  top: 88px;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  border-bottom: #ccc 1px solid;
+}
+.admin .inputPeriod {
+  width: 25%;
+  padding: 10px;
+  display: inline-block;
+}
+.admin .inputDateDebut {
+  width: 30%;
+  padding: 10px;
+  display: inline-block;
+}
+.admin .selectPeriod p {
+  display: inline-block;
+}
+.admin .inputDateDebut input {
+  width: 100%;
+  padding: 6px;
+}
+.admin .inputDateFin {
+  width: 30%;
+  padding: 10px;
+  display: inline-block;
+}
+.admin .inputDateFin input {
+  width: 100%;
+  padding: 6px;
+}
+.admin .titre_periode {
+  margin-left: 20px;
+}
+.admin .datasDashboard {
+  margin-top: 61px;
+  padding: 20px;
+}
+.admin .searchBar {
+  width: 100%;
+  text-align: right;
+  right: 0;
+  margin: 10px 0;
+}
+.admin .searchBar input {
+  padding: 5px 10px;
+  vertical-align: top;
+  border: 2px solid #0060aa;
+  margin-right: 20px;
+}
+.admin .searchBar input:focus {
+  outline: none;
+}
+.admin .searchBar .fa {
+  background-color: #0060aa;
+  color: white;
+  padding: 11px;
+}
+.admin .selectedSort {
+  text-decoration: underline;
+}
+.admin .chevron-up, .admin .chevron-down {
+  display: none;
+  margin-left: 8px;
+  font-size: 13px;
+}
+.admin .selectedSort.asc .chevron-down {
+  display: inline-block;
+}
+.admin .selectedSort.asc .chevron-up {
+  display: none;
+}
+.admin .selectedSort.desc .chevron-up {
+  display: inline-block;
+}
+.admin .selectedSort.desc .chevron-down {
+  display: none;
+}
+.admin .allPretsAdmin td {
+  cursor: pointer;
+}
+.admin table {
+  text-align: center;
+  width: 100%;
+}
+.admin table tr:nth-child(2n + 1){
+  background-color: rgba(0,96,170, 0.1);
+}
+.admin table tr:first-child {
+  background-color: #0060aa;
+  color: white;
+  border-radius: 10px;
+}
+.admin table tr td {
+  padding: 10px;
+  border: 1px solid #eee;
+}
+.admin table tr .null {
+  color: #ddd;
+}
+.admin .tableLieux {
+  margin-top: 50px;
+}
+.admin .supprimerLieu {
+  background-color: rgba(255,0,0,0.3);
+  color: white;
+}
+.admin .supprimerLieu:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255,0,0,.25);
+
+}
+.admin .supprimerLieu:hover {
+  background-color: red;
+}
+.admin .modifierLieu {
+  background-color: #0060aa;
+  margin-left: 20px;
+  color: white;
+}
+.admin .ajoutLieux {
+  width: 250px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: #0060aa;
+  margin: 30px 50px;
+  position: absolute;
+  right: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addLieu {
+  margin: auto;
+}
+.addLieu td {
+  width: 200px;
+  padding: 10px;
+}
+.addLieu td:first-child {
+  text-align: right;
+  vertical-align: top;
+  color: #888;
+  padding-top: 27px;
+}
+.addLieu input {
+  width: 300px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px;
+  margin-right: 0.8%;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  border: #ccc 1px solid;
+  border-radius: 4px;
+  color: #888;
+}
+.addLieu input:focus {
+  outline: none;
+}
+.addLieu input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc;
+  opacity: 1; /* Firefox */
+}
+.addLieu .inputBatiment {
+  width: 150px;
+  padding-right: 0;
+}
+.addLieu .inputBatiment input {
+  width: 100px;
+  display: inline-block;
+}
+.addLieu .inputBatiment span {
+  color: #aaa;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.addLieu .inputBatiment span:hover {
+  color: red;
+}
+.addLieu .errorInput {
+  border-color: red;
+}
+.addItem {
+  color: #0060aa;
+  cursor: pointer;
+  text-align: right;
+  padding-right: 10px;
+}
+.addItem:hover {
+  text-decoration: underline;
+}
+.addLieu .saveModif {
+  border-radius: 4px;
+  margin: 0;
+  padding: 5px;
+  display: inline;
+  background: #0060aa;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.addLieu .saveModif:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+.addLieu .cancelModif {
+  border-radius: 4px;
+  margin: 0;
+  padding: 5px;
+  display: inline;
+  background: #ddd;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.addLieu .modifSaved {
+  color: #0060aa;
+  font-size: 14px;
+  margin: 0;
+}
+.addLieu .modifSaved span {
+  margin-right: 5px;
+}
+.addLieu .buttonsSave.notSaved {
+  display: block;
+}
+.addLieu .buttonsSave {
+  display: none;
+}
+.addLieu .modifSaved.notSaved {
+  display: none;
+}
+.addLieu .modifSaved {
+  display: block;
+}
+.addLieu .saved {
+  display: block;
+}
+.addLieu .addBatiment {
+  background-color: #eee;
+  padding: 10px;
+}
+.addLieu .addBatiment tbody tr:last-child td {
+  text-align: center;
+  padding-top: 0;
+}
+.addLieu .addBatiment tr td:first-child {
+  padding-top: 15px;
+}
+.addLieu .addBatiment .inputBatiment {
+  
+}
+.addLieu .addBatiment .inputBatiment input {
+  margin-top: 0;
+}
+.buttonRight {
+  float: right;
+}
+.buttonBlue {
+  background-color: #0060aa;
+  color: #fff;
+}
+.buttonRed {
+  background-color: red;
+  color: #fff;
+  margin-left: 10px;
+}
+.bigModal {
+  width: 770px;
+}
+.bigModal h1 {
+  color: #0060aa;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.bigModal h3 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.bigModal .validateButton {
+  background-color: #0060aa;
+  color: #fff;
+  float: right;
+}
+.mediumModal {
+  width: 520px;
+}
+.tableDetails {
+
+}
+.tableDetails table {
+  text-align: center;
+  width: 100%;
+}
+.tableDetails table tr:nth-child(2n + 1){
+  background-color: rgba(0,96,170, 0.1);
+}
+.tableDetails table tr:first-child {
+  background-color: #0060aa;
+  color: white;
+  border-radius: 10px;
+}
+.tableDetails table tr td {
+  padding: 10px;
+  border: 1px solid #eee;
+}
+.past td {
+  color: #bbb;
+}
+.current td {
+  color: #000;
+  font-weight: bold;
+}
+.futur td {
+  color: #000;
+}
+.iconDetails {
+  color: #0060aa;
+  cursor: pointer;
+}
+@media (max-width: 1100px){
+  .menu {
+    width: 100%;
+  }
+
+  .menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+  }
+
+  .menu li:first-child {
+    padding-left: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .menu li:last-child {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    top: 0;
+    font-size: 27px;
+    position: absolute;
+    right: 0;
+    width: auto;
+  }
+
+  .accueil {
+    width: 100%;
+  }
+
+  .accueil .yourActivity {
+    width: 100%;
+  }
+  .accueil .yourActivity table {
+    width: 100%;
+  }
+  .accueil .yourActivity td {
+    width: 20%;
+    text-align: center;
+  }
+  .accueil .yourActivity h4 {
+    width: 100%;
+  }
+  .pret {
+    width: 100%;
+  }
+
+  .emprunt {
+    width: 100%;
+    margin-top: 175px;
+  }
+  .emprunt .backSearchEmprunt {
+    top: 112px;
+  }
+  .emprunt .noSearch {
+    margin-top: 250px;
+  }
+
+  .emprunt .searchEmprunt {
+    width: 100%;
+  }
+
+  .detailsBureau {
+    width: 100%;
+    margin-top: 112px;
+  }
+  .detailsBureau .left {
+    width: 60%;
+  }
+  .detailsBureau .infosBureau {
+    width: 100%;
+  }
+  .detailsBureau .infosBureauLeft {
+    width: 40%;
+  }
+  .detailsBureau .infosBureauRight {
+    width: 60%;
+    padding-top: 0;
+  }
+  .detailsBureau .infosMateriel {
+    width: 100%;
+  }
+  .detailsBureau .right {
+    width: 30%;
+  }
+  .detailsBureau .right .reservation {
+    width: 100%;
+  }
+  .detailsBureau .right .buttonCheck {
+    width: 80%;
+  }
+  .detailsBureau .infosPreteur {
+    width: 100%;
+  }
+  .emprunt .resultEmprunt {
+    width: 100%;
+  }
+  .emprunt .resultEmprunt .bureau p {
+   font-size: 12px;
+  }
+  .emprunt .resultEmprunt .bureau .title {
+    width: 100%;
+  }
+  .emprunt .resultEmprunt .bureau .image {
+    width: 20%;
+  }
+  .emprunt .resultEmprunt .bureau .image img {
+    width: 100%;
+    height: auto;
+  }
+  .emprunt .resultEmprunt .bureau .infos {
+    width: 60%;
+  }
+  .emprunt .checkEmprunt {
+    width: 20%;
+  }
+  .emprunt .resultEmprunt .bureau .details {
+    width: 48%;
+    margin-left: 2%;
+  }
+  .emprunt .resultEmprunt .bureau .details h4 {
+    display: none;
+  }
+  .emprunt .resultEmprunt .bureau .materiel-services {
+    width: 50%;
+  }
+  .emprunt .resultEmprunt .bureau .materiel-services h4 {
+    font-size: 15px;
+  }
+  .emprunt .resultEmprunt .bureau .materiel-services img {
+    color:#ccc;
+    text-shadow:0 -1px 0 black;                
+  }
+  .emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(2):hover  p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(2):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(3):hover p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(3):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(4):hover p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(4):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(5):hover p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(5):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(6):hover p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(6):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(7):hover p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(7):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .emprunt .resultEmprunt .bureau .materiel-services p {
+    display: none;
+    position:absolute;  
+    margin-top:3px;
+    color:#0060aa;
+    background:white;
+    box-shadow:0 1px 0 rgba(255,255,255,.4);
+    padding:5px;
+    border-radius:3px;
+    transform:scale(0) rotate(-12deg);
+    transition:all 10s;
+}
+  .emprunt .resultEmprunt .bureau .services {
+    display: block;
+    margin-top: 25px;
+  }
+  .emprunt .resultEmprunt .bureau .materiel div {
+    display: inline-block;
+  }
+  .emprunt .resultEmprunt .bureau .services p {
+    display: none;
+  }
+  .emprunt .resultEmprunt .bureau .services div {
+    display: inline-block;
+  }
+  .emprunt .checkEmprunt p:nth-child(1) {
+    display: none;
+  }
+  .favoris {
+    width: 100%;
+    margin-top: 112px;
+  }
+}
+@media (max-width: 745px){
+  .header {
+    position: static;
+  }
+  .accueil {
+    margin-top: 0;
+  }
+  .accueil .yourActivity td:nth-child(3) {
+    display: none;
+  }
+  .accueil .yourActivity td:nth-child(5) {
+    display: none;
+  }
+  .emprunt {
+    margin-top: 0;
+  }
+  .emprunt .backSearchEmprunt {
+    position: static;
+  }
+  .emprunt .searchEmprunt {
+    padding: 15px 0 5px 0;
+  }
+  .emprunt .searchEmprunt .where {
+    width: 300px;
+    display: block;
+    margin: auto;
+  }
+  .emprunt .searchEmprunt .date {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .emprunt .searchEmprunt .hour {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .emprunt .searchEmprunt .submit {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+  }
+  .emprunt .error {
+    text-align: center;
+  }
+  .emprunt .noSearch {
+    margin-top: 10px;
+  }
+  .emprunt .resultEmprunt {
+    padding-top: 10px;
+  }
+  .detailsBureau {
+    width: 100%;
+    margin-top: 0;
+  }
+  .detailsBureau h3 {
+    margin-left: 2%;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .detailsBureau .left {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .detailsBureau .right .reservation {
+    margin-bottom: 25px;
+  }
+  .detailsBureau .right {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .detailsBureau .right .infosPreteur {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .activity {
+    width: 100%;
+    margin-top: 0;
+  }
+  .favoris {
+    width: 100%;
+    margin-top: 0;
+  }
+  .favoris .bureau .infos h4 {
+    font-size: 15px;
+  }
+  .favoris .bureau .infos .details {
+    width: 50%;
+  }
+  .favoris .bureau .infos .details h4 {
+    display: none;
+  }
+  .favoris .bureau .infos .materiel-services {
+    width: 50%;
+  }
+  .favoris .bureau .infos .materiel-services .materiel, .favoris .bureau .infos .materiel-services .services {
+    display: block;
+    width: 100%;
+  }
+  .favoris .bureau .materiel-services img {
+    color:#ccc;
+    text-shadow:0 -1px 0 black;                
+  }
+  .favoris .bureau .materiel-services div div:nth-child(2):hover  p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(2):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .favoris .bureau .materiel-services div div:nth-child(3):hover p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(3):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .favoris .bureau .materiel-services div div:nth-child(4):hover p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(4):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .favoris .bureau .materiel-services div div:nth-child(5):hover p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(5):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .favoris .bureau .materiel-services div div:nth-child(6):hover p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(6):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .favoris .bureau .materiel-services div div:nth-child(7):hover p,.emprunt .resultEmprunt .bureau .materiel-services div div:nth-child(7):focus p{
+    display: block;
+    transform:scale(1) rotate(0);
+  }
+  .favoris .bureau .materiel-services p {
+    display: none;
+    position:absolute;  
+    margin-top:3px;
+    color:#0060aa;
+    background:white;
+    box-shadow:0 1px 0 rgba(255,255,255,.4);
+    padding:5px;
+    border-radius:3px;
+    transform:scale(0) rotate(-12deg);
+  }
+  .favoris .bureau .services {
+    display: block;
+    margin-top: 25px;
+  }
+  .favoris .bureau .materiel div {
+    display: inline-block;
+  }
+  .favoris .bureau .services p {
+    display: none;
+  }
+  .favoris .bureau .services div {
+    display: inline-block;
+  }
+}
+@media (max-width: 500px){
+  .favoris {
+    padding-top: 68px;
+  }
+  .favoris .bureau .image {
+    width: 100%;
+  }
+  .favoris .bureau .infos {
+    width: 100%;
+  }
+  .detailsBureau {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .menu li:first-child {
+    position: fixed;
+    background-color: #0060aa;
+    z-index: 1000;
+  }
+  .menu li:last-child {
+    padding: 6px 20px;
+    position: fixed;
+    z-index: 1001;
+  }
+  .menu li:nth-child(2), .menu li:nth-child(3), .menu li:nth-child(4), .menu li:nth-child(5) {
+    position: fixed;
+    bottom: 0;
+    background-color: #0060aa;
+    z-index: 1000;
+    left: 0;
+    padding: 10px 0 0 0;
+  }
+  .menu li a:nth-child(1){
+    display: none;
+  }
+  .menu li a:nth-child(2){
+    display: block;
+  }
+  .menu li:nth-child(1) a:nth-child(1){
+    display: block;
+  }
+  .menu li a span {
+    font-size: 20px;
+    width: 100%;
+  }
+  .menu li a {
+    font-size: 12px;
+  }
+  .menu li:nth-child(3) {
+    left: 25%;
+  }
+  .menu li:nth-child(4) {
+    left: 50%;
+  }
+  .menu li:nth-child(5) {
+    left: 75%;
+  }
+  .accueil .button {
+    width: 100%;
+  }
+  .emprunt {
+    margin-top: 0px;
+  }
+  .detailsProfil .ligneInfos {
+    width: 100%;
+  }
+  .detailsProfil .ligneInfos .key {
+    width: 50%;
+  }
+  .detailsProfil .ligneInfos .value {
+    width: 50%;
+  }
+  .editBureau .infosSelector h3 {
+    margin: 0;
+  }
+  .editBureau .infosSelector .ligneInfos {
+    margin: 0;
+  }
+  .editBureau .infosSelector .ligneInfos div {
+    width: 50%;
+  }
+  .editBureau .infosSelector .ligneInfos div:last-child {
+    width: 100%;
+  }
+  .ongletPret {
+    width: 50%;
+  }
+  .ongletPret {
+    width: 50%;
+  }
+  .pret form {
+    width: 100%;
+  }
+  .pret form .left {
+    width: 50%;
+  }
+  .pret form .right {
+    width: 50%;
+  }
+  .pret form .left .inputDate {
+    width: 90%;
+    margin: 10px 5%;
+  }
+  .pret form select {
+    width: 90%;
+    margin: 10px 5%;
+  }
+  .labelCheckConfirmation {
+    width: 90%;
+  }
+  .pret {
+    padding: 100px 20px;
+  }
+  .fade.in.modal {
+    padding-right: 0;
+  }
+  .emprunt {
+    padding-top: 48px;
+  }
+  .emprunt .resultEmprunt .bureau {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+  }
+  .emprunt .resultEmprunt .bureau .title {
+    width: 100%;
+  }
+  .emprunt .resultEmprunt .bureau .image {
+    width: 20%;
+  }
+  .emprunt .resultEmprunt .bureau .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .emprunt .resultEmprunt .bureau .infos {
+    width: 60%;
+  }
+  .emprunt .resultEmprunt .bureau .details {
+    width: 100%;
+    margin-left: 3px;
+  }
+  .emprunt .resultEmprunt .bureau .details h4 {
+    display: none;
+  }
+  .emprunt .resultEmprunt .bureau .details div:nth-child(4), .emprunt .resultEmprunt .bureau .details div:nth-child(5){
+    display: none;
+  }
+  .emprunt .resultEmprunt .bureau .details p {
+    font-size: 15px;
+  }
+  .emprunt .resultEmprunt .bureau .materiel {
+    display: none;
+  }
+  .emprunt .resultEmprunt .bureau .services {
+    display: none;
+  }
+  .emprunt .checkEmprunt {
+    font-size: 18px;
+    width: 20%;
+  }
+  .emprunt .checkEmprunt p {
+    margin: 0;
+    font-size: 10px;
+  }
+  .emprunt .checkEmprunt p:nth-child(1){
+    display: none;
+  }
+  .emprunt .checkEmprunt p span {
+    font-size: 20px;
+  }
+  .emprunt .resultEmprunt {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+/* CSS CIRCLE */
+/****************************************************************
+ *
+ * CSS Percentage Circle
+ * Author: Andre Firchow
+ *
+*****************************************************************/
+.rect-auto, .c100.p51 .slice, .c100.p52 .slice, .c100.p53 .slice, .c100.p54 .slice, .c100.p55 .slice, .c100.p56 .slice, .c100.p57 .slice, .c100.p58 .slice, .c100.p59 .slice, .c100.p60 .slice, .c100.p61 .slice, .c100.p62 .slice, .c100.p63 .slice, .c100.p64 .slice, .c100.p65 .slice, .c100.p66 .slice, .c100.p67 .slice, .c100.p68 .slice, .c100.p69 .slice, .c100.p70 .slice, .c100.p71 .slice, .c100.p72 .slice, .c100.p73 .slice, .c100.p74 .slice, .c100.p75 .slice, .c100.p76 .slice, .c100.p77 .slice, .c100.p78 .slice, .c100.p79 .slice, .c100.p80 .slice, .c100.p81 .slice, .c100.p82 .slice, .c100.p83 .slice, .c100.p84 .slice, .c100.p85 .slice, .c100.p86 .slice, .c100.p87 .slice, .c100.p88 .slice, .c100.p89 .slice, .c100.p90 .slice, .c100.p91 .slice, .c100.p92 .slice, .c100.p93 .slice, .c100.p94 .slice, .c100.p95 .slice, .c100.p96 .slice, .c100.p97 .slice, .c100.p98 .slice, .c100.p99 .slice, .c100.p100 .slice {
+  clip: rect(auto, auto, auto, auto);
+}
+
+.pie, .c100 .bar, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill, .c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill, .c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill, .c100.p61 .fill, .c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill, .c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill, .c100.p70 .fill, .c100.p71 .fill, .c100.p72 .fill, .c100.p73 .fill, .c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill, .c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill, .c100.p82 .fill, .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill, .c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill, .c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill, .c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill, .c100.p98 .fill, .c100.p99 .fill, .c100.p100 .fill {
+  position: absolute;
+  border: 0.08em solid #307bbb;
+  width: 0.84em;
+  height: 0.84em;
+  clip: rect(0em, 0.5em, 1em, 0em);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.pie-fill, .c100.p51 .bar:after, .c100.p51 .fill, .c100.p52 .bar:after, .c100.p52 .fill, .c100.p53 .bar:after, .c100.p53 .fill, .c100.p54 .bar:after, .c100.p54 .fill, .c100.p55 .bar:after, .c100.p55 .fill, .c100.p56 .bar:after, .c100.p56 .fill, .c100.p57 .bar:after, .c100.p57 .fill, .c100.p58 .bar:after, .c100.p58 .fill, .c100.p59 .bar:after, .c100.p59 .fill, .c100.p60 .bar:after, .c100.p60 .fill, .c100.p61 .bar:after, .c100.p61 .fill, .c100.p62 .bar:after, .c100.p62 .fill, .c100.p63 .bar:after, .c100.p63 .fill, .c100.p64 .bar:after, .c100.p64 .fill, .c100.p65 .bar:after, .c100.p65 .fill, .c100.p66 .bar:after, .c100.p66 .fill, .c100.p67 .bar:after, .c100.p67 .fill, .c100.p68 .bar:after, .c100.p68 .fill, .c100.p69 .bar:after, .c100.p69 .fill, .c100.p70 .bar:after, .c100.p70 .fill, .c100.p71 .bar:after, .c100.p71 .fill, .c100.p72 .bar:after, .c100.p72 .fill, .c100.p73 .bar:after, .c100.p73 .fill, .c100.p74 .bar:after, .c100.p74 .fill, .c100.p75 .bar:after, .c100.p75 .fill, .c100.p76 .bar:after, .c100.p76 .fill, .c100.p77 .bar:after, .c100.p77 .fill, .c100.p78 .bar:after, .c100.p78 .fill, .c100.p79 .bar:after, .c100.p79 .fill, .c100.p80 .bar:after, .c100.p80 .fill, .c100.p81 .bar:after, .c100.p81 .fill, .c100.p82 .bar:after, .c100.p82 .fill, .c100.p83 .bar:after, .c100.p83 .fill, .c100.p84 .bar:after, .c100.p84 .fill, .c100.p85 .bar:after, .c100.p85 .fill, .c100.p86 .bar:after, .c100.p86 .fill, .c100.p87 .bar:after, .c100.p87 .fill, .c100.p88 .bar:after, .c100.p88 .fill, .c100.p89 .bar:after, .c100.p89 .fill, .c100.p90 .bar:after, .c100.p90 .fill, .c100.p91 .bar:after, .c100.p91 .fill, .c100.p92 .bar:after, .c100.p92 .fill, .c100.p93 .bar:after, .c100.p93 .fill, .c100.p94 .bar:after, .c100.p94 .fill, .c100.p95 .bar:after, .c100.p95 .fill, .c100.p96 .bar:after, .c100.p96 .fill, .c100.p97 .bar:after, .c100.p97 .fill, .c100.p98 .bar:after, .c100.p98 .fill, .c100.p99 .bar:after, .c100.p99 .fill, .c100.p100 .bar:after, .c100.p100 .fill {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c100 {
+  position: relative;
+  font-size: 120px;
+  width: 1em;
+  height: 1em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 0.1em 0.1em 0;
+  background-color: #cccccc;
+}
+.c100 *, .c100 *:before, .c100 *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.c100.center {
+  float: none;
+  margin: 0 auto;
+}
+.c100.big {
+  font-size: 240px;
+}
+.c100.small {
+  font-size: 80px;
+}
+.c100 > span {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 5em;
+  line-height: 5em;
+  font-size: 0.2em;
+  color: #cccccc;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.c100:after {
+  position: absolute;
+  top: 0.08em;
+  left: 0.08em;
+  display: block;
+  content: " ";
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  width: 0.84em;
+  height: 0.84em;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+.c100 .slice {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  clip: rect(0em, 1em, 1em, 0.5em);
+}
+.c100.p1 .bar {
+  -webkit-transform: rotate(3.6deg);
+  -moz-transform: rotate(3.6deg);
+  -ms-transform: rotate(3.6deg);
+  -o-transform: rotate(3.6deg);
+  transform: rotate(3.6deg);
+}
+.c100.p2 .bar {
+  -webkit-transform: rotate(7.2deg);
+  -moz-transform: rotate(7.2deg);
+  -ms-transform: rotate(7.2deg);
+  -o-transform: rotate(7.2deg);
+  transform: rotate(7.2deg);
+}
+.c100.p3 .bar {
+  -webkit-transform: rotate(10.8deg);
+  -moz-transform: rotate(10.8deg);
+  -ms-transform: rotate(10.8deg);
+  -o-transform: rotate(10.8deg);
+  transform: rotate(10.8deg);
+}
+.c100.p4 .bar {
+  -webkit-transform: rotate(14.4deg);
+  -moz-transform: rotate(14.4deg);
+  -ms-transform: rotate(14.4deg);
+  -o-transform: rotate(14.4deg);
+  transform: rotate(14.4deg);
+}
+.c100.p5 .bar {
+  -webkit-transform: rotate(18deg);
+  -moz-transform: rotate(18deg);
+  -ms-transform: rotate(18deg);
+  -o-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+.c100.p6 .bar {
+  -webkit-transform: rotate(21.6deg);
+  -moz-transform: rotate(21.6deg);
+  -ms-transform: rotate(21.6deg);
+  -o-transform: rotate(21.6deg);
+  transform: rotate(21.6deg);
+}
+.c100.p7 .bar {
+  -webkit-transform: rotate(25.2deg);
+  -moz-transform: rotate(25.2deg);
+  -ms-transform: rotate(25.2deg);
+  -o-transform: rotate(25.2deg);
+  transform: rotate(25.2deg);
+}
+.c100.p8 .bar {
+  -webkit-transform: rotate(28.8deg);
+  -moz-transform: rotate(28.8deg);
+  -ms-transform: rotate(28.8deg);
+  -o-transform: rotate(28.8deg);
+  transform: rotate(28.8deg);
+}
+.c100.p9 .bar {
+  -webkit-transform: rotate(32.4deg);
+  -moz-transform: rotate(32.4deg);
+  -ms-transform: rotate(32.4deg);
+  -o-transform: rotate(32.4deg);
+  transform: rotate(32.4deg);
+}
+.c100.p10 .bar {
+  -webkit-transform: rotate(36deg);
+  -moz-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  -o-transform: rotate(36deg);
+  transform: rotate(36deg);
+}
+.c100.p11 .bar {
+  -webkit-transform: rotate(39.6deg);
+  -moz-transform: rotate(39.6deg);
+  -ms-transform: rotate(39.6deg);
+  -o-transform: rotate(39.6deg);
+  transform: rotate(39.6deg);
+}
+.c100.p12 .bar {
+  -webkit-transform: rotate(43.2deg);
+  -moz-transform: rotate(43.2deg);
+  -ms-transform: rotate(43.2deg);
+  -o-transform: rotate(43.2deg);
+  transform: rotate(43.2deg);
+}
+.c100.p13 .bar {
+  -webkit-transform: rotate(46.8deg);
+  -moz-transform: rotate(46.8deg);
+  -ms-transform: rotate(46.8deg);
+  -o-transform: rotate(46.8deg);
+  transform: rotate(46.8deg);
+}
+.c100.p14 .bar {
+  -webkit-transform: rotate(50.4deg);
+  -moz-transform: rotate(50.4deg);
+  -ms-transform: rotate(50.4deg);
+  -o-transform: rotate(50.4deg);
+  transform: rotate(50.4deg);
+}
+.c100.p15 .bar {
+  -webkit-transform: rotate(54deg);
+  -moz-transform: rotate(54deg);
+  -ms-transform: rotate(54deg);
+  -o-transform: rotate(54deg);
+  transform: rotate(54deg);
+}
+.c100.p16 .bar {
+  -webkit-transform: rotate(57.6deg);
+  -moz-transform: rotate(57.6deg);
+  -ms-transform: rotate(57.6deg);
+  -o-transform: rotate(57.6deg);
+  transform: rotate(57.6deg);
+}
+.c100.p17 .bar {
+  -webkit-transform: rotate(61.2deg);
+  -moz-transform: rotate(61.2deg);
+  -ms-transform: rotate(61.2deg);
+  -o-transform: rotate(61.2deg);
+  transform: rotate(61.2deg);
+}
+.c100.p18 .bar {
+  -webkit-transform: rotate(64.8deg);
+  -moz-transform: rotate(64.8deg);
+  -ms-transform: rotate(64.8deg);
+  -o-transform: rotate(64.8deg);
+  transform: rotate(64.8deg);
+}
+.c100.p19 .bar {
+  -webkit-transform: rotate(68.4deg);
+  -moz-transform: rotate(68.4deg);
+  -ms-transform: rotate(68.4deg);
+  -o-transform: rotate(68.4deg);
+  transform: rotate(68.4deg);
+}
+.c100.p20 .bar {
+  -webkit-transform: rotate(72deg);
+  -moz-transform: rotate(72deg);
+  -ms-transform: rotate(72deg);
+  -o-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+.c100.p21 .bar {
+  -webkit-transform: rotate(75.6deg);
+  -moz-transform: rotate(75.6deg);
+  -ms-transform: rotate(75.6deg);
+  -o-transform: rotate(75.6deg);
+  transform: rotate(75.6deg);
+}
+.c100.p22 .bar {
+  -webkit-transform: rotate(79.2deg);
+  -moz-transform: rotate(79.2deg);
+  -ms-transform: rotate(79.2deg);
+  -o-transform: rotate(79.2deg);
+  transform: rotate(79.2deg);
+}
+.c100.p23 .bar {
+  -webkit-transform: rotate(82.8deg);
+  -moz-transform: rotate(82.8deg);
+  -ms-transform: rotate(82.8deg);
+  -o-transform: rotate(82.8deg);
+  transform: rotate(82.8deg);
+}
+.c100.p24 .bar {
+  -webkit-transform: rotate(86.4deg);
+  -moz-transform: rotate(86.4deg);
+  -ms-transform: rotate(86.4deg);
+  -o-transform: rotate(86.4deg);
+  transform: rotate(86.4deg);
+}
+.c100.p25 .bar {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.c100.p26 .bar {
+  -webkit-transform: rotate(93.6deg);
+  -moz-transform: rotate(93.6deg);
+  -ms-transform: rotate(93.6deg);
+  -o-transform: rotate(93.6deg);
+  transform: rotate(93.6deg);
+}
+.c100.p27 .bar {
+  -webkit-transform: rotate(97.2deg);
+  -moz-transform: rotate(97.2deg);
+  -ms-transform: rotate(97.2deg);
+  -o-transform: rotate(97.2deg);
+  transform: rotate(97.2deg);
+}
+.c100.p28 .bar {
+  -webkit-transform: rotate(100.8deg);
+  -moz-transform: rotate(100.8deg);
+  -ms-transform: rotate(100.8deg);
+  -o-transform: rotate(100.8deg);
+  transform: rotate(100.8deg);
+}
+.c100.p29 .bar {
+  -webkit-transform: rotate(104.4deg);
+  -moz-transform: rotate(104.4deg);
+  -ms-transform: rotate(104.4deg);
+  -o-transform: rotate(104.4deg);
+  transform: rotate(104.4deg);
+}
+.c100.p30 .bar {
+  -webkit-transform: rotate(108deg);
+  -moz-transform: rotate(108deg);
+  -ms-transform: rotate(108deg);
+  -o-transform: rotate(108deg);
+  transform: rotate(108deg);
+}
+.c100.p31 .bar {
+  -webkit-transform: rotate(111.6deg);
+  -moz-transform: rotate(111.6deg);
+  -ms-transform: rotate(111.6deg);
+  -o-transform: rotate(111.6deg);
+  transform: rotate(111.6deg);
+}
+.c100.p32 .bar {
+  -webkit-transform: rotate(115.2deg);
+  -moz-transform: rotate(115.2deg);
+  -ms-transform: rotate(115.2deg);
+  -o-transform: rotate(115.2deg);
+  transform: rotate(115.2deg);
+}
+.c100.p33 .bar {
+  -webkit-transform: rotate(118.8deg);
+  -moz-transform: rotate(118.8deg);
+  -ms-transform: rotate(118.8deg);
+  -o-transform: rotate(118.8deg);
+  transform: rotate(118.8deg);
+}
+.c100.p34 .bar {
+  -webkit-transform: rotate(122.4deg);
+  -moz-transform: rotate(122.4deg);
+  -ms-transform: rotate(122.4deg);
+  -o-transform: rotate(122.4deg);
+  transform: rotate(122.4deg);
+}
+.c100.p35 .bar {
+  -webkit-transform: rotate(126deg);
+  -moz-transform: rotate(126deg);
+  -ms-transform: rotate(126deg);
+  -o-transform: rotate(126deg);
+  transform: rotate(126deg);
+}
+.c100.p36 .bar {
+  -webkit-transform: rotate(129.6deg);
+  -moz-transform: rotate(129.6deg);
+  -ms-transform: rotate(129.6deg);
+  -o-transform: rotate(129.6deg);
+  transform: rotate(129.6deg);
+}
+.c100.p37 .bar {
+  -webkit-transform: rotate(133.2deg);
+  -moz-transform: rotate(133.2deg);
+  -ms-transform: rotate(133.2deg);
+  -o-transform: rotate(133.2deg);
+  transform: rotate(133.2deg);
+}
+.c100.p38 .bar {
+  -webkit-transform: rotate(136.8deg);
+  -moz-transform: rotate(136.8deg);
+  -ms-transform: rotate(136.8deg);
+  -o-transform: rotate(136.8deg);
+  transform: rotate(136.8deg);
+}
+.c100.p39 .bar {
+  -webkit-transform: rotate(140.4deg);
+  -moz-transform: rotate(140.4deg);
+  -ms-transform: rotate(140.4deg);
+  -o-transform: rotate(140.4deg);
+  transform: rotate(140.4deg);
+}
+.c100.p40 .bar {
+  -webkit-transform: rotate(144deg);
+  -moz-transform: rotate(144deg);
+  -ms-transform: rotate(144deg);
+  -o-transform: rotate(144deg);
+  transform: rotate(144deg);
+}
+.c100.p41 .bar {
+  -webkit-transform: rotate(147.6deg);
+  -moz-transform: rotate(147.6deg);
+  -ms-transform: rotate(147.6deg);
+  -o-transform: rotate(147.6deg);
+  transform: rotate(147.6deg);
+}
+.c100.p42 .bar {
+  -webkit-transform: rotate(151.2deg);
+  -moz-transform: rotate(151.2deg);
+  -ms-transform: rotate(151.2deg);
+  -o-transform: rotate(151.2deg);
+  transform: rotate(151.2deg);
+}
+.c100.p43 .bar {
+  -webkit-transform: rotate(154.8deg);
+  -moz-transform: rotate(154.8deg);
+  -ms-transform: rotate(154.8deg);
+  -o-transform: rotate(154.8deg);
+  transform: rotate(154.8deg);
+}
+.c100.p44 .bar {
+  -webkit-transform: rotate(158.4deg);
+  -moz-transform: rotate(158.4deg);
+  -ms-transform: rotate(158.4deg);
+  -o-transform: rotate(158.4deg);
+  transform: rotate(158.4deg);
+}
+.c100.p45 .bar {
+  -webkit-transform: rotate(162deg);
+  -moz-transform: rotate(162deg);
+  -ms-transform: rotate(162deg);
+  -o-transform: rotate(162deg);
+  transform: rotate(162deg);
+}
+.c100.p46 .bar {
+  -webkit-transform: rotate(165.6deg);
+  -moz-transform: rotate(165.6deg);
+  -ms-transform: rotate(165.6deg);
+  -o-transform: rotate(165.6deg);
+  transform: rotate(165.6deg);
+}
+.c100.p47 .bar {
+  -webkit-transform: rotate(169.2deg);
+  -moz-transform: rotate(169.2deg);
+  -ms-transform: rotate(169.2deg);
+  -o-transform: rotate(169.2deg);
+  transform: rotate(169.2deg);
+}
+.c100.p48 .bar {
+  -webkit-transform: rotate(172.8deg);
+  -moz-transform: rotate(172.8deg);
+  -ms-transform: rotate(172.8deg);
+  -o-transform: rotate(172.8deg);
+  transform: rotate(172.8deg);
+}
+.c100.p49 .bar {
+  -webkit-transform: rotate(176.4deg);
+  -moz-transform: rotate(176.4deg);
+  -ms-transform: rotate(176.4deg);
+  -o-transform: rotate(176.4deg);
+  transform: rotate(176.4deg);
+}
+.c100.p50 .bar {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.c100.p51 .bar {
+  -webkit-transform: rotate(183.6deg);
+  -moz-transform: rotate(183.6deg);
+  -ms-transform: rotate(183.6deg);
+  -o-transform: rotate(183.6deg);
+  transform: rotate(183.6deg);
+}
+.c100.p52 .bar {
+  -webkit-transform: rotate(187.2deg);
+  -moz-transform: rotate(187.2deg);
+  -ms-transform: rotate(187.2deg);
+  -o-transform: rotate(187.2deg);
+  transform: rotate(187.2deg);
+}
+.c100.p53 .bar {
+  -webkit-transform: rotate(190.8deg);
+  -moz-transform: rotate(190.8deg);
+  -ms-transform: rotate(190.8deg);
+  -o-transform: rotate(190.8deg);
+  transform: rotate(190.8deg);
+}
+.c100.p54 .bar {
+  -webkit-transform: rotate(194.4deg);
+  -moz-transform: rotate(194.4deg);
+  -ms-transform: rotate(194.4deg);
+  -o-transform: rotate(194.4deg);
+  transform: rotate(194.4deg);
+}
+.c100.p55 .bar {
+  -webkit-transform: rotate(198deg);
+  -moz-transform: rotate(198deg);
+  -ms-transform: rotate(198deg);
+  -o-transform: rotate(198deg);
+  transform: rotate(198deg);
+}
+.c100.p56 .bar {
+  -webkit-transform: rotate(201.6deg);
+  -moz-transform: rotate(201.6deg);
+  -ms-transform: rotate(201.6deg);
+  -o-transform: rotate(201.6deg);
+  transform: rotate(201.6deg);
+}
+.c100.p57 .bar {
+  -webkit-transform: rotate(205.2deg);
+  -moz-transform: rotate(205.2deg);
+  -ms-transform: rotate(205.2deg);
+  -o-transform: rotate(205.2deg);
+  transform: rotate(205.2deg);
+}
+.c100.p58 .bar {
+  -webkit-transform: rotate(208.8deg);
+  -moz-transform: rotate(208.8deg);
+  -ms-transform: rotate(208.8deg);
+  -o-transform: rotate(208.8deg);
+  transform: rotate(208.8deg);
+}
+.c100.p59 .bar {
+  -webkit-transform: rotate(212.4deg);
+  -moz-transform: rotate(212.4deg);
+  -ms-transform: rotate(212.4deg);
+  -o-transform: rotate(212.4deg);
+  transform: rotate(212.4deg);
+}
+.c100.p60 .bar {
+  -webkit-transform: rotate(216deg);
+  -moz-transform: rotate(216deg);
+  -ms-transform: rotate(216deg);
+  -o-transform: rotate(216deg);
+  transform: rotate(216deg);
+}
+.c100.p61 .bar {
+  -webkit-transform: rotate(219.6deg);
+  -moz-transform: rotate(219.6deg);
+  -ms-transform: rotate(219.6deg);
+  -o-transform: rotate(219.6deg);
+  transform: rotate(219.6deg);
+}
+.c100.p62 .bar {
+  -webkit-transform: rotate(223.2deg);
+  -moz-transform: rotate(223.2deg);
+  -ms-transform: rotate(223.2deg);
+  -o-transform: rotate(223.2deg);
+  transform: rotate(223.2deg);
+}
+.c100.p63 .bar {
+  -webkit-transform: rotate(226.8deg);
+  -moz-transform: rotate(226.8deg);
+  -ms-transform: rotate(226.8deg);
+  -o-transform: rotate(226.8deg);
+  transform: rotate(226.8deg);
+}
+.c100.p64 .bar {
+  -webkit-transform: rotate(230.4deg);
+  -moz-transform: rotate(230.4deg);
+  -ms-transform: rotate(230.4deg);
+  -o-transform: rotate(230.4deg);
+  transform: rotate(230.4deg);
+}
+.c100.p65 .bar {
+  -webkit-transform: rotate(234deg);
+  -moz-transform: rotate(234deg);
+  -ms-transform: rotate(234deg);
+  -o-transform: rotate(234deg);
+  transform: rotate(234deg);
+}
+.c100.p66 .bar {
+  -webkit-transform: rotate(237.6deg);
+  -moz-transform: rotate(237.6deg);
+  -ms-transform: rotate(237.6deg);
+  -o-transform: rotate(237.6deg);
+  transform: rotate(237.6deg);
+}
+.c100.p67 .bar {
+  -webkit-transform: rotate(241.2deg);
+  -moz-transform: rotate(241.2deg);
+  -ms-transform: rotate(241.2deg);
+  -o-transform: rotate(241.2deg);
+  transform: rotate(241.2deg);
+}
+.c100.p68 .bar {
+  -webkit-transform: rotate(244.8deg);
+  -moz-transform: rotate(244.8deg);
+  -ms-transform: rotate(244.8deg);
+  -o-transform: rotate(244.8deg);
+  transform: rotate(244.8deg);
+}
+.c100.p69 .bar {
+  -webkit-transform: rotate(248.4deg);
+  -moz-transform: rotate(248.4deg);
+  -ms-transform: rotate(248.4deg);
+  -o-transform: rotate(248.4deg);
+  transform: rotate(248.4deg);
+}
+.c100.p70 .bar {
+  -webkit-transform: rotate(252deg);
+  -moz-transform: rotate(252deg);
+  -ms-transform: rotate(252deg);
+  -o-transform: rotate(252deg);
+  transform: rotate(252deg);
+}
+.c100.p71 .bar {
+  -webkit-transform: rotate(255.6deg);
+  -moz-transform: rotate(255.6deg);
+  -ms-transform: rotate(255.6deg);
+  -o-transform: rotate(255.6deg);
+  transform: rotate(255.6deg);
+}
+.c100.p72 .bar {
+  -webkit-transform: rotate(259.2deg);
+  -moz-transform: rotate(259.2deg);
+  -ms-transform: rotate(259.2deg);
+  -o-transform: rotate(259.2deg);
+  transform: rotate(259.2deg);
+}
+.c100.p73 .bar {
+  -webkit-transform: rotate(262.8deg);
+  -moz-transform: rotate(262.8deg);
+  -ms-transform: rotate(262.8deg);
+  -o-transform: rotate(262.8deg);
+  transform: rotate(262.8deg);
+}
+.c100.p74 .bar {
+  -webkit-transform: rotate(266.4deg);
+  -moz-transform: rotate(266.4deg);
+  -ms-transform: rotate(266.4deg);
+  -o-transform: rotate(266.4deg);
+  transform: rotate(266.4deg);
+}
+.c100.p75 .bar {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.c100.p76 .bar {
+  -webkit-transform: rotate(273.6deg);
+  -moz-transform: rotate(273.6deg);
+  -ms-transform: rotate(273.6deg);
+  -o-transform: rotate(273.6deg);
+  transform: rotate(273.6deg);
+}
+.c100.p77 .bar {
+  -webkit-transform: rotate(277.2deg);
+  -moz-transform: rotate(277.2deg);
+  -ms-transform: rotate(277.2deg);
+  -o-transform: rotate(277.2deg);
+  transform: rotate(277.2deg);
+}
+.c100.p78 .bar {
+  -webkit-transform: rotate(280.8deg);
+  -moz-transform: rotate(280.8deg);
+  -ms-transform: rotate(280.8deg);
+  -o-transform: rotate(280.8deg);
+  transform: rotate(280.8deg);
+}
+.c100.p79 .bar {
+  -webkit-transform: rotate(284.4deg);
+  -moz-transform: rotate(284.4deg);
+  -ms-transform: rotate(284.4deg);
+  -o-transform: rotate(284.4deg);
+  transform: rotate(284.4deg);
+}
+.c100.p80 .bar {
+  -webkit-transform: rotate(288deg);
+  -moz-transform: rotate(288deg);
+  -ms-transform: rotate(288deg);
+  -o-transform: rotate(288deg);
+  transform: rotate(288deg);
+}
+.c100.p81 .bar {
+  -webkit-transform: rotate(291.6deg);
+  -moz-transform: rotate(291.6deg);
+  -ms-transform: rotate(291.6deg);
+  -o-transform: rotate(291.6deg);
+  transform: rotate(291.6deg);
+}
+.c100.p82 .bar {
+  -webkit-transform: rotate(295.2deg);
+  -moz-transform: rotate(295.2deg);
+  -ms-transform: rotate(295.2deg);
+  -o-transform: rotate(295.2deg);
+  transform: rotate(295.2deg);
+}
+.c100.p83 .bar {
+  -webkit-transform: rotate(298.8deg);
+  -moz-transform: rotate(298.8deg);
+  -ms-transform: rotate(298.8deg);
+  -o-transform: rotate(298.8deg);
+  transform: rotate(298.8deg);
+}
+.c100.p84 .bar {
+  -webkit-transform: rotate(302.4deg);
+  -moz-transform: rotate(302.4deg);
+  -ms-transform: rotate(302.4deg);
+  -o-transform: rotate(302.4deg);
+  transform: rotate(302.4deg);
+}
+.c100.p85 .bar {
+  -webkit-transform: rotate(306deg);
+  -moz-transform: rotate(306deg);
+  -ms-transform: rotate(306deg);
+  -o-transform: rotate(306deg);
+  transform: rotate(306deg);
+}
+.c100.p86 .bar {
+  -webkit-transform: rotate(309.6deg);
+  -moz-transform: rotate(309.6deg);
+  -ms-transform: rotate(309.6deg);
+  -o-transform: rotate(309.6deg);
+  transform: rotate(309.6deg);
+}
+.c100.p87 .bar {
+  -webkit-transform: rotate(313.2deg);
+  -moz-transform: rotate(313.2deg);
+  -ms-transform: rotate(313.2deg);
+  -o-transform: rotate(313.2deg);
+  transform: rotate(313.2deg);
+}
+.c100.p88 .bar {
+  -webkit-transform: rotate(316.8deg);
+  -moz-transform: rotate(316.8deg);
+  -ms-transform: rotate(316.8deg);
+  -o-transform: rotate(316.8deg);
+  transform: rotate(316.8deg);
+}
+.c100.p89 .bar {
+  -webkit-transform: rotate(320.4deg);
+  -moz-transform: rotate(320.4deg);
+  -ms-transform: rotate(320.4deg);
+  -o-transform: rotate(320.4deg);
+  transform: rotate(320.4deg);
+}
+.c100.p90 .bar {
+  -webkit-transform: rotate(324deg);
+  -moz-transform: rotate(324deg);
+  -ms-transform: rotate(324deg);
+  -o-transform: rotate(324deg);
+  transform: rotate(324deg);
+}
+.c100.p91 .bar {
+  -webkit-transform: rotate(327.6deg);
+  -moz-transform: rotate(327.6deg);
+  -ms-transform: rotate(327.6deg);
+  -o-transform: rotate(327.6deg);
+  transform: rotate(327.6deg);
+}
+.c100.p92 .bar {
+  -webkit-transform: rotate(331.2deg);
+  -moz-transform: rotate(331.2deg);
+  -ms-transform: rotate(331.2deg);
+  -o-transform: rotate(331.2deg);
+  transform: rotate(331.2deg);
+}
+.c100.p93 .bar {
+  -webkit-transform: rotate(334.8deg);
+  -moz-transform: rotate(334.8deg);
+  -ms-transform: rotate(334.8deg);
+  -o-transform: rotate(334.8deg);
+  transform: rotate(334.8deg);
+}
+.c100.p94 .bar {
+  -webkit-transform: rotate(338.4deg);
+  -moz-transform: rotate(338.4deg);
+  -ms-transform: rotate(338.4deg);
+  -o-transform: rotate(338.4deg);
+  transform: rotate(338.4deg);
+}
+.c100.p95 .bar {
+  -webkit-transform: rotate(342deg);
+  -moz-transform: rotate(342deg);
+  -ms-transform: rotate(342deg);
+  -o-transform: rotate(342deg);
+  transform: rotate(342deg);
+}
+.c100.p96 .bar {
+  -webkit-transform: rotate(345.6deg);
+  -moz-transform: rotate(345.6deg);
+  -ms-transform: rotate(345.6deg);
+  -o-transform: rotate(345.6deg);
+  transform: rotate(345.6deg);
+}
+.c100.p97 .bar {
+  -webkit-transform: rotate(349.2deg);
+  -moz-transform: rotate(349.2deg);
+  -ms-transform: rotate(349.2deg);
+  -o-transform: rotate(349.2deg);
+  transform: rotate(349.2deg);
+}
+.c100.p98 .bar {
+  -webkit-transform: rotate(352.8deg);
+  -moz-transform: rotate(352.8deg);
+  -ms-transform: rotate(352.8deg);
+  -o-transform: rotate(352.8deg);
+  transform: rotate(352.8deg);
+}
+.c100.p99 .bar {
+  -webkit-transform: rotate(356.4deg);
+  -moz-transform: rotate(356.4deg);
+  -ms-transform: rotate(356.4deg);
+  -o-transform: rotate(356.4deg);
+  transform: rotate(356.4deg);
+}
+.c100.p100 .bar {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.c100.dark {
+  background-color: #777777;
+}
+.c100.dark .bar,
+.c100.dark .fill {
+  border-color: #c6ff00 !important;
+}
+.c100.dark > span {
+  color: #777777;
+}
+.c100.dark:after {
+  background-color: #666666;
+}
+.c100.dark:hover > span {
+  color: #c6ff00;
+}
+.c100.green .bar, .c100.green .fill {
+  border-color: #4db53c !important;
+}
+.c100.green:hover > span {
+  color: #4db53c;
+}
+.c100.green.dark .bar, .c100.green.dark .fill {
+  border-color: #5fd400 !important;
+}
+.c100.green.dark:hover > span {
+  color: #5fd400;
+}
+.c100.orange .bar, .c100.orange .fill {
+  border-color: #dd9d22 !important;
+}
+.c100.orange:hover > span {
+  color: #dd9d22;
+}
+.c100.orange.dark .bar, .c100.orange.dark .fill {
+  border-color: #e08833 !important;
+}
+.c100.orange.dark:hover > span {
+  color: #e08833;
+}
+.react-toggle {
+  touch-action: pan-x;
+
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-toggle-screenreader-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.react-toggle--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+}
+
+.react-toggle-track {
+  width: 50px;
+  height: 24px;
+  padding: 0;
+  border-radius: 30px;
+  background-color: #4D4D4D;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track {
+  background-color: #000000;
+}
+
+.react-toggle--checked .react-toggle-track {
+  background-color: #19AB27;
+}
+
+.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
+  background-color: #128D15;
+}
+
+.react-toggle-track-check {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 0px;
+  bottom: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  left: 8px;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.react-toggle--checked .react-toggle-track-check {
+  opacity: 1;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.react-toggle-track-x {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  bottom: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  right: 10px;
+  opacity: 1;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.react-toggle--checked .react-toggle-track-x {
+  opacity: 0;
+}
+
+.react-toggle-thumb {
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #4D4D4D;
+  border-radius: 50%;
+  background-color: #FAFAFA;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.react-toggle--checked .react-toggle-thumb {
+  left: 27px;
+  border-color: #19AB27;
+}
+
+.react-toggle--focus .react-toggle-thumb {
+  -webkit-box-shadow: 0px 0px 3px 2px #0099E0;
+  -moz-box-shadow: 0px 0px 3px 2px #0099E0;
+  box-shadow: 0px 0px 2px 3px #0099E0;
+}
+
+.react-toggle:active:not(.react-toggle--disabled) .react-toggle-thumb {
+  -webkit-box-shadow: 0px 0px 5px 5px #0099E0;
+  -moz-box-shadow: 0px 0px 5px 5px #0099E0;
+  box-shadow: 0px 0px 5px 5px #0099E0;
+}
+
