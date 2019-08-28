@@ -1,7 +1,6 @@
 # BureauxPartages
 Cette application web en React.JS a pour but de mettre en relation des personnes qui souhaitent prêter leur bureau car elles n'y sont pas présentes avec des personnes en déplacement qui cherche un bureau afin de pouvoir travailler. Cette application a été créée pour la collectivité territoriale de l'Isère.
 
-
 ## Présentation de l'application
 
 Cette application a été conçue pour une collectivité territoriale, la connexion se fait donc directement par les serveurs du Département, aucun mot de passe n'est sauvegarder dans la base de donnée de cette application. Le back-end est en PHP car il s'agit du langage utilisé par la collectivité.
@@ -14,7 +13,7 @@ Capture d'écran de la page de connexion
 ### Page d'accueil
 Une fois connecté, l'utilisateur se retrouve sur la page d'accueil sur laquelle il peut voir ses réservations et prêts à venir.
 ![Capture-AccueilPrets](https://user-images.githubusercontent.com/32487884/63845774-d3f17f80-c98a-11e9-8e36-dd73b6ce4816.JPG)
-aaa
+
 ### Page de recherche de bureaux
 L'utilisateur peut maintenant rechercher un bureau disponible.
 ![Capture-reservation](https://user-images.githubusercontent.com/32487884/63846068-5417e500-c98b-11e9-8bee-ca74bdc5ed73.JPG)
